@@ -20,7 +20,7 @@ Display      | 4.0
 This branch is for building TWRP.
 
 ### Thanks to:
- * FatdeadPanda
+ * Lanmiemie
  * Myself
 
 ### To build: 
