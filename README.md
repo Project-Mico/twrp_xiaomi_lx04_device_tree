@@ -21,7 +21,7 @@ This branch is for building TWRP.
 
 ### Thanks to:
  * Lanmiemie
- * Myself
+ * MaxCaiLC
 
 ### To build: 
 
