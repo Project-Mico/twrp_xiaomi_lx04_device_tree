@@ -1,10 +1,8 @@
 # mount point       fstype    device                                                                flags
-/system_a           ext4      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="system_a";backup=1;
-/system_a_image     emmc      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="System_a_image";backup=1;flashimg=1;
-/system_b           ext4      /dev/block/platform/bootdevice/by-name/system_b                       flags=display="System_b";backup=1;
-/system_b_image     emmc      /dev/block/platform/bootdevice/by-name/system_b                       flags=display="System_b_image";backup=1;flashimg=1;
-/vendor_a           ext4      /dev/block/platform/bootdevice/by-name/vendor_a                       flags=display="Vendor";backup=1;
-/vendor_a_image     emmc      /dev/block/platform/bootdevice/by-name/vendor_a                       flags=display="Vendor image";backup=1;flashimg=1;
+/system             ext4      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="System";backup=1;
+/system_image       emmc      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="System_image";backup=1;flashimg=1;
+/vendor             ext4      /dev/block/platform/bootdevice/by-name/vendor_a                       flags=display="Vendor";backup=1;
+/vendor_image       emmc      /dev/block/platform/bootdevice/by-name/vendor_a                       flags=display="Vendor image";backup=1;flashimg=1;
 /odmdtbo_a          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_a                      flags=display="Odmdtbo_a";
 /odmdtbo_b          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_b                      flags=display="Odmdtbo_b";
 /data               ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data";
